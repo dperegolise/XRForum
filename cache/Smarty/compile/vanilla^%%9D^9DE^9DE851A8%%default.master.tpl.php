@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-02-03 16:07:25
+<?php /* Smarty version 2.6.29, created on 2017-02-03 17:50:36
          compiled from /var/www/html/forum/themes/bittersweet/views/default.master.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'asset', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 5, false),array('function', 'searchbox', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 71, false),array('function', 'dashboard_link', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 73, false),array('function', 'discussions_link', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 74, false),array('function', 'activity_link', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 75, false),array('function', 'inbox_link', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 76, false),array('function', 'custom_menu', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 77, false),array('function', 'profile_link', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 78, false),array('function', 'signinout_link', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 79, false),array('function', 'breadcrumbs', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 85, false),array('function', 'module', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 91, false),array('function', 'vanillaurl', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 99, false),array('function', 'event', '/var/www/html/forum/themes/bittersweet/views/default.master.tpl', 104, false),)), $this); ?>
@@ -124,5 +124,13 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'asset', '/v
 </div>
 <?php echo smarty_function_event(array('name' => 'AfterBody'), $this);?>
 
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+<!-- jQuery -->
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+<script src='../src/js/scrollspy.js'></script>
+<script src='../src/js/theme-nav.js'></script>
+<script src='../vendor/bootstrap.min.js'></script>
 </body>
 </html>

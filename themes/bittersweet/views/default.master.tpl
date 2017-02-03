@@ -102,5 +102,13 @@
     </div>
 </div>
 {event name="AfterBody"}
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+<!-- jQuery -->
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+<script src='../src/js/scrollspy.js'></script>
+<script src='../src/js/theme-nav.js'></script>
+<script src='../vendor/bootstrap.min.js'></script>
 </body>
 </html>
